@@ -9,6 +9,6 @@ describe('GET /', () => {
     expect(response.statusCode).toBe(200);
 
     // Check if the response body (HTML string) contains the exact text
-    expect(response.text).toContain('Hello Worl');
+    expect(response.text).toContain('Hello World');
   });
 });
